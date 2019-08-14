@@ -4,6 +4,7 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+
 (function($) {
 
 	var	$window = $(window),
@@ -19,6 +20,8 @@
 			xsmall:    ['361px',    '480px'    ],
 			xxsmall:   [null,       '360px'    ]
 		});
+		$('h1').click( () => alert('Hello this is my stretch'))
+
 
 	// Play initial animations on page load.
 		$window.on('load', function() {
